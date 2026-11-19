@@ -1,0 +1,64 @@
+// Prisma Schema for SoundForge DAW
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String    @id @default(cuid())
+  name      String?
+  email     String    @unique
+  password  String
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  projects  Project[]
+}
+
+model Project {
+  id        String   @id @default(cuid())
+  name      String
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  bpm       Int      @default(120)
+  duration  Float    @default(120.0) // duration in seconds
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  tracks    Track[]
+
+  @@index([userId])
+}
+
+model Track {
+  id            String         @id @default(cuid())
+  name          String         @default("Track")
+  projectId     String
+  project       Project        @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  audioUrl      String?        // optional primary audio or recording
+  volume        Float          @default(0.8) // 0.0 to 1.0
+  pan           Float          @default(0.0) // -1.0 (L) to 1.0 (R)
+  muted         Boolean        @default(false)
+  solo          Boolean        @default(false)
+  order         Int            @default(0)
+  color         String         @default("#22C55E")
+  timelineItems TimelineItem[]
+
+  @@index([projectId])
+}
+
+model TimelineItem {
+  id        String   @id @default(cuid())
+  name      String   @default("Clip")
+  trackId   String
+  track     Track    @relation(fields: [trackId], references: [id], onDelete: Cascade)
+  audioUrl  String
+  startTime Float    @default(0.0) // Start time in seconds on timeline
+  endTime   Float    @default(10.0) // End time in seconds on timeline
+  duration  Float    @default(10.0) // Raw audio duration
+  createdAt DateTime @default(now())
+
+  @@index([trackId])
+}

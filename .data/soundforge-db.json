@@ -1,0 +1,107 @@
+{
+  "users": [],
+  "projects": [
+    {
+      "id": "prj_1795065424893",
+      "name": "Sound Check",
+      "userId": "demo-user-id",
+      "bpm": 120,
+      "duration": 120,
+      "createdAt": "2026-11-19T05:17:04.893Z",
+      "updatedAt": "2026-11-19T05:17:04.893Z",
+      "tracks": [
+        {
+          "id": "trk_prj_1795065424893_1",
+          "projectId": "prj_1795065424893",
+          "name": "Track 1",
+          "volume": 0.8,
+          "pan": 0,
+          "muted": false,
+          "solo": false,
+          "order": 0,
+          "color": "#22C55E",
+          "timelineItems": []
+        },
+        {
+          "id": "trk_prj_1795065424893_2",
+          "projectId": "prj_1795065424893",
+          "name": "Track 2",
+          "volume": 0.8,
+          "pan": 0,
+          "muted": false,
+          "solo": false,
+          "order": 1,
+          "color": "#38BDF8",
+          "timelineItems": []
+        }
+      ]
+    },
+    {
+      "id": "demo-project-1",
+      "name": "Neon Sunrise (Demo)",
+      "userId": "demo-user-id",
+      "bpm": 124,
+      "duration": 60,
+      "createdAt": "2026-11-19T05:13:42.640Z",
+      "updatedAt": "2026-11-19T05:13:42.640Z",
+      "tracks": [
+        {
+          "id": "track-1",
+          "name": "Lead Synth",
+          "projectId": "demo-project-1",
+          "volume": 0.85,
+          "pan": 0,
+          "muted": false,
+          "solo": false,
+          "order": 0,
+          "color": "#22C55E",
+          "timelineItems": [
+            {
+              "id": "clip-1",
+              "name": "Synth Riff",
+              "trackId": "track-1",
+              "audioUrl": "",
+              "startTime": 0,
+              "endTime": 8,
+              "duration": 8
+            }
+          ]
+        },
+        {
+          "id": "track-2",
+          "name": "Bassline",
+          "projectId": "demo-project-1",
+          "volume": 0.9,
+          "pan": -0.1,
+          "muted": false,
+          "solo": false,
+          "order": 1,
+          "color": "#38BDF8",
+          "timelineItems": [
+            {
+              "id": "clip-2",
+              "name": "808 Bass",
+              "trackId": "track-2",
+              "audioUrl": "",
+              "startTime": 0,
+              "endTime": 16,
+              "duration": 16
+            }
+          ]
+        },
+        {
+          "id": "track-3",
+          "name": "Vocal Recording",
+          "projectId": "demo-project-1",
+          "volume": 0.8,
+          "pan": 0.1,
+          "muted": false,
+          "solo": false,
+          "order": 2,
+          "color": "#A855F7",
+          "timelineItems": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "node": {
+    "0004b1af7fffa48bf05a9db1f5c4692c295b1d38d1": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/studio/[projectId]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/studio/[projectId]/page": "action-browser"
+      }
+    },
+    "003337b342f87b459565cfd31f20a8b7e4122bea6a": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/studio/[projectId]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/studio/[projectId]/page": "action-browser"
+      }
+    },
+    "4021d1e90285a55255fcd8bbac8231ef12c5967c50": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/studio/[projectId]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/studio/[projectId]/page": "action-browser"
+      }
+    },
+    "4021d6d331886f546667c23360cc56efcc4fddbe00": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/studio/[projectId]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/studio/[projectId]/page": "action-browser"
+      }
+    },
+    "405d13c6825024c57fe20cfff354c76ffd01e9903a": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/studio/[projectId]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/studio/[projectId]/page": "action-browser"
+      }
+    },
+    "4081de0d538e6bf8b54738a1d0ae67afc0f6baac22": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/studio/[projectId]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/studio/[projectId]/page": "action-browser"
+      }
+    },
+    "40873e72da7279b2831bb7c66b9e33ba823ce2b9d6": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/studio/[projectId]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/studio/[projectId]/page": "action-browser"
+      }
+    },
+    "40ece51f2bb3775fee1d0d7b619d1f3659acaf0fab": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/studio/[projectId]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/studio/[projectId]/page": "action-browser"
+      }
+    },
+    "60085fce7be8deef757343e402138a70df921cac84": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/studio/[projectId]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/studio/[projectId]/page": "action-browser"
+      }
+    },
+    "6080acf003c9b67f09f2774401edcd50dbe0230f20": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/studio/[projectId]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLeighanne%5C%5C.gemini%5C%5Cantigravity%5C%5Cscratch%5C%5Csoundforge%5C%5Cactions%5C%5Cproject-actions.ts%22%2C%5B%5B%220004b1af7fffa48bf05a9db1f5c4692c295b1d38d1%22%2C%22fetchProjectsAction%22%5D%2C%5B%22003337b342f87b459565cfd31f20a8b7e4122bea6a%22%2C%22getDashboardStatsAction%22%5D%2C%5B%224021d1e90285a55255fcd8bbac8231ef12c5967c50%22%2C%22deleteProjectAction%22%5D%2C%5B%224021d6d331886f546667c23360cc56efcc4fddbe00%22%2C%22registerUserAction%22%5D%2C%5B%22405d13c6825024c57fe20cfff354c76ffd01e9903a%22%2C%22fetchProjectByIdAction%22%5D%2C%5B%224081de0d538e6bf8b54738a1d0ae67afc0f6baac22%22%2C%22forgotPasswordAction%22%5D%2C%5B%2240873e72da7279b2831bb7c66b9e33ba823ce2b9d6%22%2C%22duplicateProjectAction%22%5D%2C%5B%2240ece51f2bb3775fee1d0d7b619d1f3659acaf0fab%22%2C%22saveProjectAction%22%5D%2C%5B%2260085fce7be8deef757343e402138a70df921cac84%22%2C%22renameProjectAction%22%5D%2C%5B%226080acf003c9b67f09f2774401edcd50dbe0230f20%22%2C%22createProjectAction%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/studio/[projectId]/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "fWnhL7eKecxVZSACsqYn7OnVbsn7U2Lfb94VmacUCyM="
+}
